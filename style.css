@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    border-top: 5px solid #007bff;
+    border-bottom: 5px solid #007bff;
+    color: #007bff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#question {
+    font-size: 24px;
+    margin: 30px 0;
+    color: #555555;
+}
+
+#score {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+li {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+li:hover {
+    background-color: #eeeeee;
+}
+
+li.correct {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+li.incorrect {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+li.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+#choices li:hover {
+    background-color: #f2f2f2;
+}
+
+#choices li {
+    cursor: pointer;
+}
+
+#choices li:hover {
+    background-color: lightgray;
+}
+
+#choices li.correct {
+    background-color: green;
+}
+
+#choices li.incorrect {
+    background-color: red;
+}
+
+#choices li.disabled {
+    cursor: default;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+
+#choices li {
+    list-style: none;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
